@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Andiante TypeScript boilerplate to use with VSCode",
   "main": "index.js",
+  "repository": "https://github.com/andiante-eng/typescript-starter.git",
   "scripts": {
     "clean": "rm -rf dist",
     "start": "tsc && node dist/src/index.js",
@@ -13,37 +14,6 @@
     "lint": "eslint src/**/*.ts",
     "lint:fix": "eslint src/**/*.ts --fix"
   },
-  "author": "Andiante Engineering",
-  "license": "ISC",
-  "dependencies": {
-    "chalk": "^2.4.2",
-    "performance-now": "^2.1.0",
-    "typescript": "^3.7.2"
-  },
-  "devDependencies": {
-    "@types/chai": "^4.2.4",
-    "@types/mocha": "^5.2.7",
-    "@types/node": "^12.12.6",
-    "@typescript-eslint/eslint-plugin": "^1.13.0",
-    "@typescript-eslint/parser": "^1.13.0",
-    "chai": "^4.2.0",
-    "eslint": "^5.16.0",
-    "eslint-config-prettier": "^6.3.0",
-    "eslint-import-resolver-typescript": "^2.0.0",
-    "eslint-plugin-import": "^2.18.2",
-    "eslint-plugin-json": "^2.0.1",
-    "eslint-plugin-prettier": "^3.1.1",
-    "eslint-plugin-react": "^7.16.0",
-    "husky": "^3.0.5",
-    "karma": "^4.4.1",
-    "karma-nyan-reporter": "^0.2.5",
-    "lint-staged": "^9.4.2",
-    "mocha": "^6.2.2",
-    "mochawesome": "^4.1.0",
-    "nyc": "^15.1.0",
-    "prettier": "^1.18.2"
-  },
-  "repository": "https://github.com/andiante-eng/typescript-starter.git",
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged"
@@ -54,5 +24,35 @@
       "eslint src/**/*.ts --fix",
       "git add"
     ]
+  },
+  "author": "Andiante Engineering",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "performance-now": "^2.1.0"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.2.12",
+    "@types/mocha": "^5.2.7",
+    "@types/node": "^12.12.54",
+    "@typescript-eslint/eslint-plugin": "^1.13.0",
+    "@typescript-eslint/parser": "^1.13.0",
+    "chai": "^4.2.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-import-resolver-typescript": "^2.2.1",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-json": "^2.1.2",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.20.6",
+    "eslint": "^5.16.0",
+    "husky": "^3.1.0",
+    "karma-nyan-reporter": "^0.2.5",
+    "karma": "^4.4.1",
+    "lint-staged": "^9.5.0",
+    "mocha": "^6.2.3",
+    "mochawesome": "^4.1.0",
+    "nyc": "^15.1.0",
+    "prettier": "^1.19.1",
+    "typescript": "^3.9.7"
   }
 }
