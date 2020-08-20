@@ -1,6 +1,6 @@
-
-node_modules
-npm-debug.log
-dist
-test-report
-!.vscode/
+!/.vscode/
+/.nyc_output/
+/coverage/
+/dist/
+/node_modules/
+/test-report/

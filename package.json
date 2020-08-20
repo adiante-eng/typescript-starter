@@ -1,7 +1,7 @@
 {
   "name": "type-script-primer",
   "version": "1.0.0",
-  "description": "minimal typescript boilerplate to use with VSCode",
+  "description": "Andiante TypeScript boilerplate to use with VSCode",
   "main": "index.js",
   "scripts": {
     "clean": "rm -rf dist",
@@ -13,12 +13,12 @@
     "lint": "eslint src/**/*.ts",
     "lint:fix": "eslint src/**/*.ts --fix"
   },
-  "author": "Andy Gonzalez",
+  "author": "Andiante Engineering",
   "license": "ISC",
   "dependencies": {
     "chalk": "^2.4.2",
-    "typescript": "^3.7.2",
-    "performance-now": "^2.1.0"
+    "performance-now": "^2.1.0",
+    "typescript": "^3.7.2"
   },
   "devDependencies": {
     "@types/chai": "^4.2.4",
@@ -40,12 +40,10 @@
     "lint-staged": "^9.4.2",
     "mocha": "^6.2.2",
     "mochawesome": "^4.1.0",
+    "nyc": "^15.1.0",
     "prettier": "^1.18.2"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/agonzalezjr/typescript-starter.git"
-  },
+  "repository": "https://github.com/andiante-eng/typescript-starter.git",
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged"
