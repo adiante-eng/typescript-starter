@@ -1,5 +1,4 @@
 {
-  "mocha.files.glob": "dist/test/**/*.js",
   "eslint.enable": true,
   "eslint.validate": ["javascript", "typescript"],
   "[typescript]": {
@@ -8,5 +7,7 @@
   },
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
-  }
+  },
+  "mocha.files.glob": "./src/**/*.spec.ts",
+  "mocha.requires": ["ts-node/register"]
 }

@@ -8,11 +8,9 @@
       "type": "node",
       "request": "launch",
       "name": "Launch Program",
-      "program": "${workspaceFolder}/dist/src/index.js",
+      "program": "${workspaceFolder}/out/index.js",
       "preLaunchTask": "build",
-      "outFiles": [
-        "${workspaceFolder}/dist/**/*.js"
-      ]
+      "outFiles": ["${workspaceFolder}/out/**/*.js"]
     },
     {
       "type": "node",
@@ -20,12 +18,7 @@
       "name": "Launch Tests",
       "preLaunchTask": "build",
       "program": "${workspaceFolder}/node_modules/mocha/bin/_mocha",
-      "args": [
-        "--timeout",
-        "999999",
-        "--colors",
-        "${workspaceFolder}/dist/test/"
-      ],
+      "args": ["--timeout", "999999", "--colors", "${workspaceFolder}/out/"],
       "internalConsoleOptions": "openOnSessionStart"
     }
   ]

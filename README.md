@@ -1,4 +1,4 @@
-# typescript-primer 
+# typescript-primer
 
 [![Dependabot](https://badgen.net/badge/Dependabot/enabled/green?icon=dependabot)](https://app.dependabot.com/accounts/agonzalezjr/repos/123736588)
 
@@ -78,6 +78,6 @@ test/          -> put TS tests here
 tsconfig.json  -> TS compiler settings
 
 # output
-dist/          -> compiled JS code will be here
+out/          -> compiled JS code will be here
 test-report/   -> test report will be here
 ```
